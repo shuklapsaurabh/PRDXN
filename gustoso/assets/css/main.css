@@ -1,22 +1,25 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Aug 31, 2018, 11:30:50 AM
     Author     : Saurabh Shukla
 */
 
+/*Nav menu css changes start*/
+
+body{
+    /*overflow-x: hidden;*/
+    width: 100%;
+    height: 100%;
+}
 nav.navbar {
     height: 70px;
-    background-color: rgba(20, 20, 20, 0.7);
+    background-color: rgba(20, 20, 20, 1);
     opacity: 0.5;
+    /*overflow-x: hidden;*/
 }
 
 .navbar-light .navbar-nav .nav-link {
     font-family: Alegreya;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -34,5 +37,157 @@ nav.navbar {
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    .navbar-expand-lg .navbar-nav {
+        padding-left: 90px;
+        text-transform: uppercase;
+    }
 }
 
+ul.social-media{
+    list-style: none;
+    padding-top: 14px;
+    padding-left: 100px;
+}
+ul.social-media li {
+    display: inline;
+    padding: 12px;
+}
+
+/*Nav menu css changes end*/
+
+/*Hero css changes start*/
+
+header.masthead{
+    background-image: url("../images/png-image/hero-jpg.png");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center!important;
+}
+
+.layer{
+    background-color: rgba(20, 20, 20, 0.1);
+}
+
+.banner-text {
+    font-family: PlayfairDisplay;
+    font-size: 92px;
+    text-align: center;
+    color: #ffffff;
+    //top : 302px;
+    //position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.26;
+    letter-spacing: 6.9px;
+}
+
+.line{
+    margin-top: 46px; 
+    width: 223px;
+    height: 2px;
+    opacity: 0.54;
+    background-color: #ffffff;
+}
+
+.sub-text {
+    //padding: 0px 210px 0px 210px;
+    font-size: 24px;
+    font-weight: normal;
+    //position: absolute;
+    line-height: 1.5;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+}
+
+.sub-text p{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.btnMenu {
+    opacity: 0.6;
+    padding: 10px 30px 10px 30px;
+    background-color: #56534c;
+    border: solid 1px #9e9c93;
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 4.2px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/*Hero css changes end*/
+
+/*Section first css changes start*/
+
+#menu{
+    background-color: #ffffff;
+    margin-top: 105px;
+}
+
+.food-icon img{
+    margin-top: -55%;
+    position: absolute;
+}
+
+.art-of-cakes .sub-text{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #a47d5e;
+}
+
+.art-of-cakes .title{
+    font-weight: bold;
+    font-family: Alegreya;
+    text-align: center;
+    font-size: 48px;
+    line-height: 0.63;
+    letter-spacing: 1.2px;
+    color: #56534c;
+}
+
+.art-of-cakes .summary{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #56534c;
+}
+
+.art-of-cakes .chef-cook{
+    font-family: Alegreya;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #56534c;
+}
+
+.image-gallery .col-6{
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+/*Section first css changes end*/
