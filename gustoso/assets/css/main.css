@@ -17,6 +17,11 @@ nav.navbar {
     /*overflow-x: hidden;*/
 }
 
+li.nav-item:hover {
+    background-color: rgba(20, 20, 20, 1) !important;
+    color: #ffffff !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
     font-family: Alegreya;
     font-size: 13px;
@@ -76,8 +81,6 @@ header.masthead{
     font-size: 92px;
     text-align: center;
     color: #ffffff;
-    //top : 302px;
-    //position: absolute;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -94,10 +97,8 @@ header.masthead{
 }
 
 .sub-text {
-    //padding: 0px 210px 0px 210px;
     font-size: 24px;
     font-weight: normal;
-    //position: absolute;
     line-height: 1.5;
     letter-spacing: 2.4px;
     color: #ffffff;
@@ -185,9 +186,212 @@ header.masthead{
     color: #56534c;
 }
 
+.art-of-cakes .chef-profile{
+    text-align: center;
+}
+
+.art-of-cakes .chef-profile span{
+    font-family: Alegreya;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #56534c;
+    padding: 10px 20px 10px 20px;
+    margin : 10px 20px 10px 20px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+}
+
+.art-of-cakes .block-quote{
+    margin: 10px 15px;
+}
+
+.art-of-cakes .block-quote .char-one{
+    opacity: 0.5;
+    font-family: TimesNewRomanPSMT;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: 1.5px;
+    color: rgba(86, 83, 76, 0.5);
+    text-align: left;
+    margin: 0px 0px 0px 60px;
+}
+
+.art-of-cakes .block-quote .char-two{
+    opacity: 0.5;
+    font-family: TimesNewRomanPSMT;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: 1.5px;
+    color: rgba(86, 83, 76, 0.5);
+    text-align: right;
+    margin: 20px 60px 0px 0px;
+}
+
+.art-of-cakes .block-quote .text{
+    font-family: TimesNewRomanPSMT;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 5.6px;
+    text-align: center;
+    color: #a47d5e;
+}
+
+.taste-good img{
+    margin-top: -400%;
+    margin-left: 212%;
+    position: absolute;
+    text-align: center;
+}
+
+.taste-good p{
+    margin-top: -325%;
+    margin-left: 299%;
+    position: absolute;
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #c9b176;
+}
+
 .image-gallery .col-6{
     overflow-x: hidden;
     margin-bottom: 10px;
 }
 
 /*Section first css changes end*/
+
+#reservation{
+    background-image: url("../images/png-image/third-section-bg-jpg.png");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center!important;
+}
+
+#reservation .pancakes{
+    margin : 100px 0px 100px 0px;
+    background-image: url("../images/png-image/tasty-pancakes-jpg.png");
+}
+
+.pancakes .description{
+    margin-right: 0px !important;
+}
+
+.pancakes .description{
+    text-align: left;
+    margin: 80px;
+}
+
+.pancakes .description .title{
+    line-height: 0.63;
+    letter-spacing: 1.2px;
+    color: #56534c;
+    text-align: left;
+}
+
+.pancakes .description .sub-text{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #a47d5e;
+}
+
+.pancakes .description .summary{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #56534c;
+}
+
+/*Section second css changes start*/
+
+/*Section second css changes end*/
+
+/*Section third css changes start*/
+
+/*Section third css changes end*/
+
+/*Section fourth css changes start*/
+
+/*Section fourth css changes end*/
+
+/*Footer changes start*/
+
+#footer{
+    background-color: #f3f1e9;
+}
+
+.footer-menu{
+    background-color: #f3f1e9;
+    padding: 40px;
+}
+
+.footer-menu p{
+    display: inline;
+}
+
+/*.footer-menu p{
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+}*/
+
+.footer-menu span.site-menu{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 4.2px;
+    text-align: left;
+    color: #56534c;
+    margin: 20px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-menu p.site-name{
+    font-family: Scriptina;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #56534c;
+}
+/*Footer changes end*/
