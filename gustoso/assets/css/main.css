@@ -5,24 +5,7 @@
 
 /*Nav menu css changes start*/
 
-body{
-    /*overflow-x: hidden;*/
-    width: 100%;
-    height: 100%;
-}
-nav.navbar {
-    height: 70px;
-    background-color: rgba(20, 20, 20, 1);
-    opacity: 0.5;
-    /*overflow-x: hidden;*/
-}
-
-li.nav-item:hover {
-    background-color: rgba(20, 20, 20, 1) !important;
-    color: #ffffff !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link{
     font-family: Alegreya;
     font-size: 13px;
     font-weight: normal;
@@ -34,34 +17,32 @@ li.nav-item:hover {
     color: #ffffff;
 }
 
-
-@media (min-width: 992px){
-    header.masthead {
-        height: 900px;
-        min-height: 900px;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .navbar-expand-lg .navbar-nav {
-        padding-left: 90px;
-        text-transform: uppercase;
-    }
-}
-
 ul.social-media{
     list-style: none;
-    padding-top: 14px;
-    padding-left: 100px;
 }
-ul.social-media li {
-    display: inline;
-    padding: 12px;
+
+.hide{
+    display: none!important;
 }
 
 /*Nav menu css changes end*/
 
 /*Hero css changes start*/
+
+.banner-text , .sub-text{
+    background-color: rgba(20, 20, 20, 0.1);
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("../images/png-image/hero-jpg.png");
+    color: white;
+    font-size: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 header.masthead{
     background-image: url("../images/png-image/hero-jpg.png");
@@ -74,56 +55,6 @@ header.masthead{
 
 .layer{
     background-color: rgba(20, 20, 20, 0.1);
-}
-
-.banner-text {
-    font-family: PlayfairDisplay;
-    font-size: 92px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.26;
-    letter-spacing: 6.9px;
-}
-
-.line{
-    margin-top: 46px; 
-    width: 223px;
-    height: 2px;
-    opacity: 0.54;
-    background-color: #ffffff;
-}
-
-.sub-text {
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 1.5;
-    letter-spacing: 2.4px;
-    color: #ffffff;
-}
-
-.sub-text p{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.btnMenu {
-    opacity: 0.6;
-    padding: 10px 30px 10px 30px;
-    background-color: #56534c;
-    border: solid 1px #9e9c93;
-    font-family: Alegreya;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: 4.2px;
-    text-align: left;
-    color: #ffffff;
-    text-transform: uppercase;
 }
 
 /*Hero css changes end*/
@@ -142,6 +73,7 @@ header.masthead{
 
 .art-of-cakes .sub-text{
     font-family: Alegreya;
+    background-color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
@@ -279,7 +211,7 @@ header.masthead{
 
 /*Section first css changes end*/
 
-#reservation{
+#reservations{
     background-image: url("../images/png-image/third-section-bg-jpg.png");
     position: relative;
     background-position: center center;
@@ -288,16 +220,13 @@ header.masthead{
     text-align: center!important;
 }
 
-#reservation .pancakes{
+#reservations .pancakes{
     margin : 100px 0px 100px 0px;
     background-image: url("../images/png-image/tasty-pancakes-jpg.png");
 }
 
 .pancakes .description{
     margin-right: 0px !important;
-}
-
-.pancakes .description{
     text-align: left;
     margin: 80px;
 }
@@ -311,6 +240,7 @@ header.masthead{
 
 .pancakes .description .sub-text{
     font-family: Alegreya;
+    background-color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
@@ -360,13 +290,6 @@ header.masthead{
     display: inline;
 }
 
-/*.footer-menu p{
-    padding: 10px 20px 10px 20px;
-    margin: 10px 20px 10px 20px;
-    border-top: 1px solid #d7d5ca;
-    border-bottom: 1px solid #d7d5ca;
-}*/
-
 .footer-menu span.site-menu{
     font-family: Alegreya;
     font-size: 14px;
@@ -394,4 +317,559 @@ header.masthead{
     text-align: left;
     color: #56534c;
 }
+
 /*Footer changes end*/
+
+@media (min-width: 992px){
+    .banner-text {
+        font-family: PlayfairDisplay;
+        font-size: 92px;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 6.9px;
+        margin-top: 10%;
+    }
+
+    .line{
+        margin-top: 46px; 
+        width: 223px;
+        height: 2px;
+        opacity: 0.54;
+        background-color: #ffffff;
+    }
+
+    .sub-text {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: 2.4px;
+        color: #ffffff;
+    }
+
+    .sub-text p{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .btnMenu {
+        opacity: 0.6;
+        padding: 10px 30px 10px 30px;
+        background-color: #56534c;
+        border: solid 1px #9e9c93;
+        font-family: Alegreya;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4.2px;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    nav.navbar {
+        background-color: rgba(20, 20, 20, 1);
+        opacity: 0.5;
+        overflow-x: hidden;
+    }
+
+    .nav-link{
+        padding: 0.2rem 1rem;
+    }
+
+    .hide{
+        display: initial!important;
+    }
+
+    .navbar-brand {
+        margin-right: 6rem;
+        margin-left: 6rem;
+    }
+
+    header.masthead {
+        height: 900px;
+        min-height: 900px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-nav {
+        text-transform: uppercase;
+    }
+
+    ul.social-media{
+        margin-left: 4rem;
+    }
+
+    ul.social-media li {
+        display: inline;
+        padding: 12px;
+    }
+}
+/* ----------- iPhone X ----------- */
+
+/*iPhone X Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    .food-icon{
+        text-align: center;
+    }
+
+    .food-icon img{
+        margin-top: -15%!important;
+        position: initial!important;
+    }
+
+    #menu {
+        margin-top: 25px!important;
+    }
+
+    .hide{
+        display: none!important;
+    }
+
+    .banner-text {
+        font-family: PlayfairDisplay;
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+    }
+
+    .line{
+        margin-top: 26px; 
+        width: 175px;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+    .sub-text {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: 2.4px;
+        color: #ffffff;
+    }
+
+    .sub-text p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .btnMenu {
+        opacity: 0.6;
+        padding: 10px 30px 10px 30px;
+        background-color: #56534c;
+        border: solid 1px #9e9c93;
+        font-family: Alegreya;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4.2px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .footer-menu span.site-menu{
+        display: block;
+        text-align: center!important;
+    }
+
+    .art-of-cakes .chef-profile span{
+        margin: 0px;
+    }
+
+    .art-of-cakes .block-quote ,
+    .art-of-cakes .block-quote .char-one ,
+    .art-of-cakes .block-quote .char-two{
+        margin: 0px;
+    }
+
+    .art-of-cakes .block-quote .text{
+        font-size: 20px;
+    }
+
+    .image-gallery{
+        text-align: center;
+    }
+
+    .taste-good{
+        display: none;
+    }
+
+    .pancakes .description{
+        background-color: #ffffff;
+        padding: 30px;
+    }
+}
+
+/*iPhone X Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+    a.nav-link.hide {
+        display: initial!important;
+    }
+
+    .nav-link{
+        padding: 0.2rem 1rem;
+    }
+
+    .food-icon{
+        text-align: center;
+    }
+
+    .food-icon img{
+        margin-top: -162%!important;
+        margin-left: -100%!important;
+        position: initial!important;
+    }
+
+    #menu {
+        margin-top: 25px!important;
+    }
+
+    .hide{
+        display: none!important;
+    }
+
+    .banner-text {
+        font-family: PlayfairDisplay;
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+    }
+
+    .line{
+        margin-top: 26px; 
+        width: 175px;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+    .sub-text {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: 2.4px;
+        color: #ffffff;
+    }
+
+    .sub-text p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .btnMenu {
+        opacity: 0.6;
+        padding: 10px 30px 10px 30px;
+        background-color: #56534c;
+        border: solid 1px #9e9c93;
+        font-family: Alegreya;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4.2px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .footer-menu span.site-menu{
+        display: block;
+        text-align: center!important;
+    }
+
+    .art-of-cakes .chef-profile span{
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .art-of-cakes .block-quote ,
+    .art-of-cakes .block-quote .char-one ,
+    .art-of-cakes .block-quote .char-two{
+        margin: 0px;
+    }
+
+    .art-of-cakes .block-quote .text{
+        font-size: 20px;
+    }
+
+    .image-gallery{
+        text-align: center;
+    }
+
+    .taste-good{
+        display: none;
+    }
+
+    .pancakes .description{
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .pancakes .description .title{
+        font-size: 16px;
+    }
+
+    .pancakes .description .sub-text{
+        font-size: 10px;
+    }
+
+    .image-gallery img{
+        max-width: 116%;
+        height: 96%;
+    }
+
+    .taste-good{
+        display: initial;
+    }
+
+    .taste-good img {
+        margin-top: -545%!important;
+        max-width: 250%!important;
+        margin-left: 215%!important;
+    }
+
+    .taste-good p {
+        margin-top: -490%!important;
+        margin-left: 280%!important;
+        position: absolute;
+        font-family: Alegreya;
+        font-size: 18px!important;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: #c9b176;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/*iPad Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .navbar-dark .navbar-nav .nav-link{
+        letter-spacing: 3.0px;
+    }
+
+    a.nav-link.hide {
+        display: initial!important;
+    }
+
+    .nav-link{
+        padding: 0.2rem 1rem;
+    }
+
+    .header h1.banner-text{
+        margin-top: 5%!important;
+    }
+
+    .btnMenu {
+        opacity: 0.6;
+        padding: 10px 30px 10px 30px;
+        background-color: #56534c;
+        border: solid 1px #9e9c93;
+        font-family: Alegreya;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4.2px;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .food-icon img {
+        margin-top: -75%;
+        position: absolute;
+        margin-left: -45%;
+    }
+
+    .art-of-cakes .chef-profile span{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .art-of-cakes .block-quote .char-one{
+        margin: 0px;
+    }
+
+    .art-of-cakes .block-quote .text{
+        font-size: 20px;
+    }
+
+    .art-of-cakes .block-quote .char-two{
+        margin: 0px;
+    }
+
+    .image-gallery img{
+        max-width: 116%;
+        height: 96%;
+    }
+
+    .taste-good img {
+        margin-top: -545%;
+        max-width: 288%;
+        margin-left: 215%;
+    }
+
+    .taste-good p{
+        margin-top: -475%;
+        margin-left: 280%;
+        font-size: 24px;
+    }
+
+    .pancakes .description{
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+    .pancakes .description .title{
+        font-size: 16px;
+    }
+
+    .pancakes .description .sub-text{
+        font-size: 10px;
+    }
+
+    .footer-menu span.site-menu{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/*iPad Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .navbar-brand{
+        margin-right: 2rem;
+        margin-left: 0px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        letter-spacing: 3.0px;
+    }
+
+    a.nav-link.hide {
+        display: initial!important;
+    }
+
+    .nav-link{
+        padding: 0.2rem 1rem;
+    }
+
+    .header h1.banner-text{
+        margin-top: 5%!important;
+    }
+
+    .btnMenu {
+        opacity: 0.6;
+        padding: 10px 30px 10px 30px;
+        background-color: #56534c;
+        border: solid 1px #9e9c93;
+        font-family: Alegreya;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4.2px;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .food-icon img {
+        margin-top: -75%;
+        position: absolute;
+        margin-left: -45%;
+    }
+
+    .art-of-cakes .chef-profile span{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .art-of-cakes .block-quote .char-one{
+        margin: 0px;
+    }
+
+    .art-of-cakes .block-quote .text{
+        font-size: 20px;
+    }
+
+    .art-of-cakes .block-quote .char-two{
+        margin: 0px;
+    }
+
+    .image-gallery img{
+        max-width: 116%;
+        height: 96%;
+    }
+
+    .taste-good img {
+        margin-top: -458%;
+        max-width: 288%;
+        margin-left: 215%;
+    }
+
+    .taste-good p{
+        margin-top: -392%;
+        margin-left: 280%;
+        font-size: 32px;
+    }
+
+    .pancakes .description{
+        padding: 20px;
+        margin-right: -42px !important;
+    }
+
+    .pancakes .description .title{
+        font-size: 16px;
+    }
+
+    .pancakes .description .sub-text{
+        font-size: 10px;
+    }
+
+    .footer-menu span.site-menu{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu span.hide, p.site-name{
+        display: none!important;
+    }
+
+}
