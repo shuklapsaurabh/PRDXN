@@ -57,6 +57,14 @@ header.masthead{
     background-color: rgba(20, 20, 20, 0.1);
 }
 
+.dashed-line {
+    box-shadow: 0px 1px 0 0 #3d3029;
+    background-color: #ffffff;
+    border: solid 2px #ffffff;
+    opacity: 0.71;
+    background-image: radial-gradient(circle at 0 0, #564f4c, #56534c);
+}
+
 /*Hero css changes end*/
 
 /*Section first css changes start*/
@@ -264,6 +272,149 @@ header.masthead{
 }
 
 /*Section second css changes start*/
+
+#news {
+    background-image: url(../images/png-image/fourth-section-jpg.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center!important;
+    object-fit: contain;
+}
+
+#news .breakfast{
+    margin: 50px 50px;
+}
+
+.breakfast h3.title{
+    font-family: Alegreya;
+    font-size: 60px;
+    line-height: 0.5;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.breakfast p.sub-text{
+    font-family: Alegreya;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #c8a593;
+}
+
+.breakfast h3.sub-title{
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+.breakfast p.sub-title-text{
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #c2beba;
+}
+
+.breakfast p.price{
+    font-family: Alegreya;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #dfc691;
+}
+
+.breakfast .est-1893{
+    position: absolute;
+    margin-top: -130%;  
+}
+
+.breakfast p.est{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 0.7px;
+    text-align: center;
+    width: 50%;
+    color: #56534c;
+    float: left;
+}
+
+.breakfast p.est-year{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 0.7px;
+    text-align: center;
+    width: 50%;
+    color: #56534c;
+    float: left;
+}
+
+.breakfast p.est-title{
+    font-family: Alegreya;
+    font-size: 44px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #56534c;
+    margin-top: 30%;
+    max-width: 93%;
+}
+
+.breakfast p.est-summary{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #56534c;
+    padding: 0px 4rem 0px 2rem;
+}
+
+.breakfast button.est-btnRead{
+    background-color: transparent;
+    border: solid 1px #9e9c93;
+    font-family: Alegreya;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #a47d5e;
+    padding: 10px 65px 10px 65px;
+    margin-left: -10%;
+    margin-top: 10%;
+}
+
 
 /*Section second css changes end*/
 
