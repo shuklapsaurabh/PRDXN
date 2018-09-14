@@ -29,7 +29,7 @@ ul.social-media{
 
 /*Hero css changes start*/
 
-.banner-text , .sub-text{
+h1.banner-text , div.sub-text{
     background-color: rgba(20, 20, 20, 0.1);
 }
 
@@ -219,6 +219,8 @@ header.masthead{
 
 /*Section first css changes end*/
 
+/*Section second css changes start*/
+
 #reservations{
     background-image: url("../images/png-image/third-section-bg-jpg.png");
     position: relative;
@@ -271,7 +273,9 @@ header.masthead{
     color: #56534c;
 }
 
-/*Section second css changes start*/
+/*Section second css changes end*/
+
+/*Section third css changes start*/
 
 #news {
     background-image: url(../images/png-image/fourth-section-jpg.png);
@@ -415,14 +419,128 @@ header.masthead{
     margin-top: 10%;
 }
 
-
-/*Section second css changes end*/
-
-/*Section third css changes start*/
-
 /*Section third css changes end*/
 
 /*Section fourth css changes start*/
+
+#contact{
+    background-color: #f3f1e9;
+    text-align: center!important;
+}
+
+.sandwich{
+    margin-top: 10px;
+}
+
+.sandwich img.windmill{
+    margin-bottom: -3%;
+}
+
+.sandwich h2.title{
+    font-size: 48px;
+    line-height: 0.63;
+    letter-spacing: 1.2px;
+    color: #56534c;
+}
+
+.sandwich p.sub-text{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #a47d5e;
+}
+
+.aptent h3.aptent-title{
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    color: #a47d5e;
+} 
+
+.aptent p.aptent-summary{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 3.4px;
+    color: #56534c;
+}
+
+.final-section{
+    background-image: url("../images/png-image/final-section-img-copy-jpg.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center!important;
+    margin: 6% 0% 4% 8%;
+    object-fit: contain;
+}
+
+.final-section div.one{
+    text-align: right;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+
+.final-section .one p.prep, .one p.mins{
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.8px;
+    color: #a47d5e;
+
+}
+
+.final-section .one p.time{
+    font-size: 50px;
+    line-height: 0.5;
+    color: #56534c;
+    font-family: Alegreya;
+    font-weight: bold;
+}
+
+.final-section div.two{
+    text-align: right;
+    margin-top: 7%;
+    margin-right: 2%;
+}
+
+.final-section .two p.prep, .two p.mins{
+    font-family: Alegreya;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    color: #a47d5e;
+
+}
+
+.final-section .two p.mins{
+    margin-right: 3%;
+}
+
+.final-section .two p.time{
+    margin-top: 4%;
+    margin-right: 1%;
+    font-size: 65px;
+    line-height: 0.33;
+    color: #dfc691;
+}
 
 /*Section fourth css changes end*/
 
@@ -434,7 +552,7 @@ header.masthead{
 
 .footer-menu{
     background-color: #f3f1e9;
-    padding: 40px;
+    padding: 5%;
 }
 
 .footer-menu p{
@@ -662,6 +780,59 @@ and (orientation: portrait) {
         background-color: #ffffff;
         padding: 30px;
     }
+
+    .breakfast img{
+        width: 150%;
+        height: 100%;
+    }
+
+    .breakfast .est-1893{
+        margin-top: -128%;
+    }
+
+    .breakfast p.est{
+        width: 62%;
+    }
+
+    .breakfast p.est-year{
+        width: 0%;
+    }
+
+    .breakfast p.est-title{
+        font-size: 28px;
+    }
+
+    .final-section{
+        background-size: 90% 95%;
+    }
+
+    .final-section div.one{
+        margin-top: 9%;
+        margin-right: 10%;
+    }
+
+    .final-section .one p.prep, .one p.mins{
+        font-size: 10px;
+    }
+
+    .final-section .one p.time{
+        font-size: 26px;
+    }
+
+    .final-section .two p.prep, .two p.mins{
+        font-size: 12px;
+        margin-right: 6%;
+    }
+
+    .final-section .two p.time{
+        margin-top: 4%;
+        margin-right: 8%;
+        font-size: 38px;
+    }
+
+    .final-section .two p.mins{
+        margin-right: 10%;
+    }
 }
 
 /*iPhone X Landscape */
@@ -812,6 +983,41 @@ and (orientation: landscape) {
         text-align: center;
         color: #c9b176;
     }
+
+    #news .breakfast img{
+        width: 150%;
+        height: 100%;
+    }
+
+    .breakfast .est-1893{
+        margin-top: -184%;
+    }
+
+    .breakfast p.est-title{
+        font-size: 22px;
+    }
+
+    .breakfast p.est-summary{
+        font-size: 12px;
+    }
+
+    .final-section{
+        background-size: 100% 90%;
+    }
+
+    .final-section div.one{
+        margin-top: 16%;
+        margin-right: 4%;
+    }
+
+    .final-section div.two{
+        margin-top: 16%;
+        margin-right: -2%;
+    }
+
+    .final-section .two p.mins{
+        margin-right: 6%;
+    }
 }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
@@ -912,6 +1118,41 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .footer-menu span.site-menu{
         display: block;
         text-align: center;
+    }
+
+    .breakfast img{
+        width: 150%;
+        height: 100%;
+    }
+
+    .breakfast .est-1893{
+        margin-top: -184%;
+    }
+
+    .breakfast p.est-title{
+        font-size: 22px;
+    }
+
+    .breakfast p.est-summary{
+        font-size: 10px;
+    }
+
+    .final-section{
+        background-size: 100% 82%;
+    }
+
+    .final-section div.one{
+        margin-top: 10%;
+        margin-right: 4%;
+    }
+
+    .final-section div.two{
+        margin-top: 18%;
+        margin-right: -2%;
+    }
+
+    .final-section .two p.time{
+        font-size: 55px;
     }
 
 }
@@ -1021,6 +1262,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .footer-menu span.hide, p.site-name{
         display: none!important;
+    }
+
+    .breakfast img{
+        height: 100%;
+        width: 150%;
+    }
+
+    .breakfast .est-1893{
+        margin-top: -138%;
+    }
+
+    .breakfast p.est-title{
+        font-size: 30px;
+    }
+
+    .breakfast p.est-summary{
+        font-size: 10px;
+    }
+
+    .final-section{
+        background-size: 100% 90%;
+    }
+
+    .final-section div.one{
+        margin-top: 8%;
     }
 
 }
